@@ -1,0 +1,85 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.row {
+    margin: 0px;
+}
+
+.Logo-Container {
+    background-color: white;
+    padding: 30px 20px 40px 20px;
+}
+
+.Logo-Container img {
+    width: 230px;
+}
+
+.TL-Body {
+    display: flex;
+}
+
+.Banner {
+    /*background-image: url("Images/Timeline_Background.jpg");
+    background-size: cover;
+    opacity: .2;*/
+    padding: 100px 0 100px 80px;
+}
+
+.Banner-Text {
+    width: 720px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.Nav-Container, .TL-Body {
+    flex: 0 0 auto;
+}
+
+.Nav-Container {
+    width: 270px;
+    background-color: black;
+    color: #f0f0f0;
+    border-right: 1px solid black;
+}
+
+.Nav-List {
+    padding: 50px 1px 45px 40px;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 3px solid #505050;
+}
+
+.Nav-Item {
+    margin-bottom: 15px;
+}
+
+.TL-Container {
+    font-size: 24px;
+}
+
+.TL-Container .row .col-md-6 {
+    padding: 20px;
+}
+
+.TL-Container .row .col-md-6:first-of-type{
+    padding-left: 40px;
+    margin-right: -5px;
+}
+
+.TL-Container .row .col-md-6:last-of-type{
+    border-left: 8px solid black;
+}
+
+.TL-Highlight {
+    background-color: black;
+    color: #f0f0f0;
+    padding: 2%;
+    font-weight: bold;
+}
